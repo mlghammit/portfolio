@@ -3,16 +3,16 @@ import Loader from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
 import Logo from './Logo';
 import './index.scss';
-import Animation from '/Users/hamzakhamissa/react-website/src/components/Hamza/Animation/animation.js';
-import { About } from '/Users/hamzakhamissa/react-website/src/components/Hamza/About.home.js';
-import { Cube } from '/Users/hamzakhamissa/react-website/src/components/Hamza/Cube.js';
-import { Project } from '/Users/hamzakhamissa/react-website/src/components/Hamza/Portfolio.home.js';
-import { Contact } from '/Users/hamzakhamissa/react-website/src/components/Hamza/Contact.home.js';
-import { Resume } from '/Users/hamzakhamissa/react-website/src/components/Hamza/resume.js';
-import { Scroll } from '/Users/hamzakhamissa/react-website/src/components/Hamza/scroll.js'
-import { Socials } from '/Users/hamzakhamissa/react-website/src/components/Hamza/Socials.js'
+import Animation from '/Users/hamzakhamissa/react-website/src/components/Home/Animation/animation.js';
+import { About } from '/Users/hamzakhamissa/react-website/src/components/Home/About.home.js';
+import { Cube } from '/Users/hamzakhamissa/react-website/src/components/Home/Cube.js';
+import { Project } from '/Users/hamzakhamissa/react-website/src/components/Home/Portfolio.home.js';
+import { Contact } from '/Users/hamzakhamissa/react-website/src/components/Home/Contact.home.js';
+import { Resume } from '/Users/hamzakhamissa/react-website/src/components/Home/resume.js';
+import { Scroll } from '/Users/hamzakhamissa/react-website/src/components/Home/scroll.js'
+import { Socials } from '/Users/hamzakhamissa/react-website/src/components/Home/Socials.js'
 
-const Hamza = () => {
+const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
 
   const nameArray = ['a', 'm', 'z', 'a'];
@@ -110,4 +110,4 @@ const Hamza = () => {
   );
 };
 
-export default Hamza;
+export default Home;
