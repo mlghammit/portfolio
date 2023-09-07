@@ -7,9 +7,9 @@ import sortingAlgo from '/Users/hamzakhamissa/react-website/src/assets/images/Pa
 import pcStore from '/Users/hamzakhamissa/react-website/src/assets/images/text-base-pc-store.png'
 import curiousAI from '/Users/hamzakhamissa/react-website/src/assets/images/curious mind.png'
 import speakOrg from '/Users/hamzakhamissa/react-website/src/assets/images/speak org.png'
-import { Gallary } from '/Users/hamzakhamissa/react-website/src/components/Portfolio/ImageGallery.js';
+import { Gallary } from '/Users/hamzakhamissa/react-website/src/components/Project/ImageGallery.js';
 
-export function Portfolio() { 
+export function Project() { 
     const [letterClass, setLetterClass] = useState('text-animate');
 
     useEffect(() => {

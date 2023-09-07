@@ -6,11 +6,12 @@ import './index.scss';
 import Animation from '/Users/hamzakhamissa/react-website/src/components/Hamza/Animation/animation.js';
 import { About } from '/Users/hamzakhamissa/react-website/src/components/Hamza/About.home.js';
 import { Cube } from '/Users/hamzakhamissa/react-website/src/components/Hamza/Cube.js';
-import { Portfolio } from '/Users/hamzakhamissa/react-website/src/components/Hamza/Portfolio.home.js';
+import { Project } from '/Users/hamzakhamissa/react-website/src/components/Hamza/Portfolio.home.js';
 import { Contact } from '/Users/hamzakhamissa/react-website/src/components/Hamza/Contact.home.js';
 import { Resume } from '/Users/hamzakhamissa/react-website/src/components/Hamza/resume.js';
 import { Scroll } from '/Users/hamzakhamissa/react-website/src/components/Hamza/scroll.js'
 import { Socials } from '/Users/hamzakhamissa/react-website/src/components/Hamza/Socials.js'
+
 const Hamza = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
 
@@ -76,7 +77,7 @@ const Hamza = () => {
 
           <section id="portfolio-section"> {/* Portfolio Section */}
             <div>
-              <Portfolio />
+              <Project />
             </div>
           </section>
 
